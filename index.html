@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sepharim</title>
+    <meta
+      name="description"
+      content="Sepharim is a software project centered on useful, well-made tools. Clear behavior, local-first."
+    />
+    <link rel="icon" type="image/png" href="./assets/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <noscript>
+      <style>
+        .page-shell { display: none !important; }
+        html, body {
+          margin: 0;
+          min-height: 100%;
+          background: #000;
+          color: #f3f3f3;
+          font-family: "Inter", system-ui, sans-serif;
+        }
+        body {
+          min-height: 100vh;
+          display: grid;
+          grid-template-rows: 1fr auto;
+          background: #000;
+        }
+        .nojs-shell {
+          min-height: 100vh;
+          display: grid;
+          grid-template-rows: 1fr auto;
+          padding: 24px;
+        }
+        .nojs-center {
+          display: grid;
+          place-items: center;
+          text-align: center;
+          gap: 18px;
+        }
+        .nojs-center img {
+          width: min(220px, 62vw);
+          height: auto;
+          display: block;
+        }
+        .nojs-text {
+          margin: 0;
+          color: #ff4a4a;
+          font-size: 13px;
+          letter-spacing: 0.24em;
+          text-transform: uppercase;
+        }
+        .nojs-footer {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 16px;
+          width: min(1180px, calc(100vw - 48px));
+          margin: 0 auto;
+          padding: 0 0 10px;
+          color: #777;
+          font-size: 11px;
+          letter-spacing: 0.22em;
+          text-transform: uppercase;
+        }
+        .nojs-icons {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+        }
+        .nojs-icons a {
+          color: #ff5b5b;
+          text-decoration: none;
+        }
+      </style>
+      <div class="nojs-shell">
+        <div class="nojs-center">
+          <img src="./assets/logo_sepharim.png" alt="Sepharim" />
+          <p class="nojs-text">Activate JavaScript</p>
+        </div>
+        <footer class="nojs-footer">
+          <div>© 2026 Sepharim</div>
+          <div class="nojs-icons">
+            <a href="https://github.com/sephar-im/Sippur" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
+            <a href="https://x.com/sephar_im" target="_blank" rel="noreferrer" aria-label="X">X</a>
+          </div>
+        </footer>
+      </div>
+    </noscript>
+
+    <div class="page-shell">
+      <div class="background-grid" aria-hidden="true">
+        <div class="scan scan-a"></div>
+        <div class="scan scan-b"></div>
+        <div class="scan scan-c"></div>
+        <div class="scan-v scan-v-a"></div>
+        <div class="scan-v scan-v-b"></div>
+      </div>
+
+      <header class="topbar" id="topbar">
+        <a class="topbar-logo-link" href="#top" aria-label="Sepharim">
+          <img class="topbar-logo" src="./assets/logo_sepharim.png" alt="Sepharim" />
+        </a>
+        <div class="topbar-line"></div>
+      </header>
+
+      <main class="landing" id="top">
+        <section class="hero">
+          <p class="eyebrow" id="eyebrow">Small software project</p>
+          <div class="hero-title-wrap" id="heroTitleWrap">
+            <h1 class="hero-title" id="heroTitle">Software with restraint. Clear tools. Quiet systems.</h1>
+          </div>
+          <p class="hero-description">
+            Sepharim is a software project centered on useful, well-made tools.
+            Clear behavior, local-first.
+          </p>
+
+          <div class="hero-copy-grid">
+            <div>
+              <h2>General direction</h2>
+              <p>
+                A software project built around tools that feel controlled, direct,
+                and technically honest.
+              </p>
+            </div>
+            <div>
+              <h2>Approach</h2>
+              <p>
+                Local-first where it matters. Quiet interfaces. Focused tools.
+                Clear boundaries between products.
+              </p>
+            </div>
+            <div>
+              <h2>Current state</h2>
+              <p>
+                One public project exists now. Others remain in progress until they
+                are ready to appear.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects">
+          <div class="section-head">
+            <div>
+              <p class="section-label">Projects</p>
+              <h2 class="section-title">Current work and next lines</h2>
+            </div>
+          </div>
+
+          <div class="cards-row">
+            <article class="project-card is-coming">
+              <div class="project-topline">
+                <span class="status-chip muted">In progress</span>
+              </div>
+              <h3>Sepher</h3>
+              <p class="project-summary">
+                Contextual help inside a specific app. Focused guidance. Clear answers.
+              </p>
+              <div class="project-note">Not public yet.</div>
+            </article>
+
+            <article class="project-card is-current">
+              <div class="project-topline">
+                <span class="status-chip current">Current work</span>
+              </div>
+              <h3>Sippur</h3>
+              <p class="project-summary">
+                Native macOS recording, transcription, and clean text output.
+              </p>
+              <p class="project-detail">
+                Built for quick capture, local-first transcription, and clean export.
+              </p>
+              <a
+                class="open-link"
+                href="https://github.com/sephar-im/Sippur"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open GitHub
+              </a>
+            </article>
+
+            <article class="project-card is-coming">
+              <div class="project-topline">
+                <span class="status-chip muted">Coming soon</span>
+              </div>
+              <h3>Sephar</h3>
+              <p class="project-summary">
+                Practical utilities with clear UX and no clutter.
+              </p>
+              <div class="project-note">Not public yet.</div>
+            </article>
+          </div>
+        </section>
+
+        <section class="notes">
+          <div class="notes-line"></div>
+          <div class="notes-grid">
+            <div>
+              <p class="note-label">Why this exists</p>
+              <p>
+                Too much software is bloated, vague, or dressed up to look smarter
+                than it is. Sepharim is trying to stay smaller and more exact.
+              </p>
+            </div>
+            <div>
+              <p class="note-label">What to expect</p>
+              <p>
+                A small number of focused products. Clear identity. Better software
+                before more software.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-lines" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="site-footer-row">
+          <p>© 2026 Sepharim</p>
+          <div class="footer-icons">
+            <a href="https://github.com/sephar-im/Sippur" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
+            <a href="https://x.com/sephar_im" target="_blank" rel="noreferrer" aria-label="X">X</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
