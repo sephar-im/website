@@ -225,6 +225,15 @@ a, button { font: inherit; }
   gap: 24px;
 }
 
+.projects-footnote {
+  margin: 20px 0 0;
+  text-align: center;
+  color: #8f7d7d;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+}
+
 .project-card {
   min-height: 420px;
   padding: 20px;
