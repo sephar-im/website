@@ -241,18 +241,6 @@ a, button { font: inherit; }
   color: var(--red);
 }
 
-.status-chip {
-  display: inline-flex;
-  padding: 8px 12px;
-  border-radius: 999px;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.24em;
-  border: 1px solid var(--red-border);
-}
-.status-chip.current { color: #ff7070; background: rgba(255,18,18,0.08); }
-.status-chip.muted { color: #9d8b8b; background: rgba(255,255,255,0.02); }
-
 .project-summary, .project-detail, .project-note {
   margin: 0;
   color: var(--muted);
