@@ -133,27 +133,6 @@ a, button { font: inherit; }
   transition: transform 120ms ease, opacity 120ms ease;
 }
 
-.hero-title-wrap {
-  position: relative;
-  display: inline-grid;
-  place-items: center;
-  width: min(920px, 100%);
-}
-
-.hero-title {
-  margin: 0;
-  font-size: clamp(28px, 5vw, 62px);
-  line-height: 1.04;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  font-weight: 900;
-  text-wrap: balance;
-  max-width: 100%;
-  color: var(--red);
-  position: relative;
-  z-index: 3;
-}
-
 .hero-description {
   max-width: 760px;
   margin: 0;
